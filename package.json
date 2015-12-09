@@ -1,0 +1,31 @@
+{
+  "name": "wxbeacon-electron",
+  "version": "1.0.0",
+  "description": "wxbeacon-electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "wxbeacon",
+    "ibeacon",
+    "electron",
+  ],
+  "author": "kob-to-wni",
+  "license": "MIT",
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "dependencies": {
+    "electron": "*",
+    "bleacon": "0.3.0",
+    "moment": "*",
+    "socketio": "*"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "*"
+  }
+}
