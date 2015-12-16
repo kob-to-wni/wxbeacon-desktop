@@ -10,7 +10,7 @@
   "keywords": [
     "wxbeacon",
     "ibeacon",
-    "electron",
+    "electron"
   ],
   "author": "kob-to-wni",
   "license": "MIT",
@@ -21,7 +21,7 @@
   ],
   "dependencies": {
     "electron": "*",
-    "bleacon": "0.3.0",
+    "bleacon": "*",
     "moment": "*",
     "socketio": "*"
   },
